@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html ng-app="octavejournal">
+  <head>
+    <title>Octave Journal</title>
+    <link rel="stylesheet" type="text/css" href="/css/app.css" media="all" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no, minimum-scale=1" />
+  </head>
+  <body>
+    
+    
+    <!-- angular view -->
+    <div ng-view ng-class="{cn: lan == 'cn', en: lan == 'en'}" autoscroll="true"></div>
+    <!-- end angular view -->    
+  
+    <script type="text/javascript" src="../js/app.js"></script>    
+    <script>$(document).foundation();</script>
+  </body>
+</html>

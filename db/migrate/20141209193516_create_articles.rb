@@ -12,7 +12,7 @@ class CreateArticles < ActiveRecord::Migration
       t.string :thumbnail_image
       t.string :PDF
       t.text :content
-      t.ineger :issue_id      
+      t.integer :issue_id      
       t.timestamps
     end
   end

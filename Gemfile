@@ -14,6 +14,8 @@ gem 'angularjs-rails'
 gem 'carrierwave'
 gem 'angularjs-file-upload-rails', '~> 1.1.5'
 
+gem "paperclip", "~> 4.2"
+
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
